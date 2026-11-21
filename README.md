@@ -38,7 +38,7 @@ If you'd rather keep signing in with the Mana account, use **External** instead 
 
 ### 3. Deploy on Cloudflare (ikaika account)
 
-1. **Workers & Pages → Create → Import a repository**. Pick `jayb-codes/gsc-mcp`.
+1. **Workers & Pages → Create → Import a repository**. Pick `jayb-codes/aloha-gsc-mcp`.
 2. Keep the project name `gsc-mcp` and the deploy command `npx wrangler deploy`, then click **Deploy**.
 3. In the Worker, go to **Settings → Variables and Secrets** and add two **Secrets**:
    - `GOOGLE_CLIENT_ID`
