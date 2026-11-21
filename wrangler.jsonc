@@ -1,0 +1,15 @@
+{
+  "name": "gsc-mcp",
+  "main": "src/index.ts",
+  "account_id": "00a32165250b88d578a37c135e30710b",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "workers_dev": true,
+  "vars": {
+    "MCP_RESOURCE": "https://gsc-mcp.ikaika-creative.workers.dev/mcp",
+    // Only these Google accounts can sign in. Empty = nobody.
+    "ALLOWED_EMAILS": "jay@houseofaloha.com.au,jay%manaformen.com.au@gtempaccount.com"
+  },
+  "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "666334c343224a42bd363ecb879ee2e9" }],
+  "observability": { "enabled": true }
+}
